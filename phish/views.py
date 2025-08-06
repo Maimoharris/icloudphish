@@ -550,7 +550,7 @@ def admin_users_view(request):
         'sessions': active_sessions
     }
     
-    return render(request, 'admin_users.html', context)
+    return render(request, 'admin.html', context)
 
 def admin_login_history_view(request):
     """View for detailed login history"""
